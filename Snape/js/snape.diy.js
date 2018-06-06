@@ -1,0 +1,1 @@
+/* Snape Javascript Plus */
