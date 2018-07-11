@@ -33,7 +33,12 @@
                 </mip-carousel></div>
         <div class="clear"></div>
     <?php }?>
-            <?php query_posts('showposts=6&cat=-111'); ?>
+             <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+		    $args = array(
+		    'ignore_sticky_posts' => 1,
+		    'paged' => $paged
+	        	);
+		      query_posts($args); ?>
             <?php while (have_posts()) : the_post(); ?>
                 <div class="entry">
                     <div class="entry-thumb">
