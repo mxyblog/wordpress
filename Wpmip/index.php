@@ -2,7 +2,7 @@
 <div id="container">
 	<div id="posts">
 		<div id="posts-list">
-            <?php if(wp_is_mobile()){//只在移动端输出置顶文章 ?>
+            <?php if(wp_is_mobile()&&is_home()&&!is_paged()){//只在移动端首页输出置顶文章 ?>
             <div class="entry-slide">
                 <mip-carousel
                         autoplay
