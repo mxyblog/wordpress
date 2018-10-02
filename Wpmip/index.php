@@ -2,7 +2,7 @@
 <div id="container">
 	<div id="posts">
 		<div id="posts-list">
-            <?php if(wp_is_mobile()){//只在移动端输出置顶文章 ?>
+            <?php if(wp_is_mobile()&&is_home()&&!is_paged()){//只在移动端首页输出置顶文章 ?>
             <div class="entry-slide">
                 <mip-carousel
                         autoplay
@@ -33,7 +33,12 @@
                 </mip-carousel></div>
         <div class="clear"></div>
     <?php }?>
-            <?php query_posts('showposts=6&cat=-111'); ?>
+             <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+		    $args = array(
+		    'ignore_sticky_posts' => 1,
+		    'paged' => $paged
+	        	);
+		      query_posts($args); ?>
             <?php while (have_posts()) : the_post(); ?>
                 <div class="entry">
                     <div class="entry-thumb">
