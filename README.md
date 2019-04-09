@@ -6,19 +6,19 @@
 # wpmip
 ![](./wpmip/wpmip.jpg)
 # chopstack
-![](./chopstack/chopstack.jpeg)
+![](./chopstack/chopstack.png)
 # Diaspora
-![](./Diaspora/Diaspora.jpg)
+![](./Diaspora/Diaspora.jpeg)
 # iDevise
 ![](./iDevise/iDevise.jpg)
 # jieStyle-two
-![](./jieStyle-two/jieStyle-two.png)
+![](./jieStyle-two/screenshot.png)
 # simple
 ![](./simple/screenshot.png)
 # snape
 ![](./snape/snape.png)
 # wordstar
-![](./yusi/wordstar.jpg)
+![](./wordstar/wordstar.jpg)
 # zerif-lite
 ![](./zerif-lite/zerif-lite.jpg)
 
