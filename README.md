@@ -1,7 +1,25 @@
-### 收集整理分享一些UI界面简洁、比较好的、小众的、免费的wordpress主题
+![陌小雨博客](./logo.png "陌小雨博客")
+> 收集整理分享一些UI界面简洁、比较好的、小众的、免费的wordpress主题
 
-### 文件夹名为主题的名字
+# yusi2019/yusi
+![](./yusi/yusi.jpg)
+# wpmip
+![](./wpmip/wpmip.jpg)
+# chopstack
+![](./chopstack/chopstack.jpeg)
+# Diaspora
+![](./Diaspora/Diaspora.jpg)
+# iDevise
+![](./iDevise/iDevise.jpg)
+# jieStyle-two
+![](./jieStyle-two/jieStyle-two.png)
+# simple
+![](./simple/screenshot.png)
+# snape
+![](./snape/snape.png)
+# wordstar
+![](./yusi/wordstar.jpg)
+# zerif-lite
+![](./zerif-lite/zerif-lite.jpg)
 
-### 获取实用Wordpress建站技巧 可以访问我的博客
-
-[陌小雨博客](https://dedewp.com)
+> 获取实用Wordpress建站技巧 可以访问我的小站 [陌小雨博客](https://dedewp.com)

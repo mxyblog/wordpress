@@ -1,11 +1,11 @@
-### wordpress免费主题：iDevise
+### wordpress免费主题：snape
 
 ### 主题搜集自：https://github.com/Vtrois
 
 ### 主题截图
 
 
-![](./Snape.png)
+![](./snape.png)
 
 ### By 陌小雨
 
