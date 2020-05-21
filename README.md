@@ -21,5 +21,8 @@
 ![](./wordstar/wordstar.jpg)
 # zerif-lite
 ![](./zerif-lite/zerif-lite.jpg)
+# MyDream
+![](./MyDream/screenshot.png)
 
 > 获取实用Wordpress建站技巧 可以访问我的小站 [陌小雨博客](https://dedewp.com)
+> 本站提供wordpress建站有偿服务

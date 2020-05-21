@@ -1,0 +1,339 @@
+/* Options Framework Admin Styles */
+
+#optionsframework {
+    max-width:840px;
+    background:#fff;
+}
+#optionsframework h3 {
+	cursor: default;
+	background-color: #f1f1f1;
+	font-size: 14px;
+    line-height: 1.4;
+	color: #555;
+    margin: 0;
+    padding: 8px 12px;
+	border-bottom: 1px solid #ddd;
+}
+#optionsframework p {
+	margin-bottom:0;
+	padding-bottom:10px;
+}
+#optionsframework .section {
+	padding:2px 20px 0;
+}
+#optionsframework .group {
+	padding-bottom:40px;
+}
+#optionsframework .section .controls {
+	float: left;
+	margin-bottom: 5px;
+	padding-right:2%;
+}
+#optionsframework .section .explain {
+	width: 100%;
+	font-size: 14px;
+	line-height:16px;
+	color: #777;
+}
+.section-text .explain, .section-select .explain {
+	line-height:27px !important;
+}
+.section-textarea .controls {
+	width: 100% !important;
+}
+.section-upload .explain {
+	float: left;
+}
+@media screen and (max-width: 550px) {
+	.section-text .explain {
+		float: left;
+	}
+}
+#optionsframework .section-checkbox .controls {
+	width: 98%;
+}
+#optionsframework .section-checkbox .explain {
+	max-width:94%;
+}
+#optionsframework .controls input[type=text] {
+	width:100%;
+}
+#optionsframework .controls input[type=text].wp-color-picker {
+    width: 65px;
+}
+#optionsframework .controls select, #optionsframework .controls textarea {
+	margin-bottom:10px;
+	width:100%;
+}
+#optionsframework .section-radio label, #optionsframework .section-multicheck label {
+	float:left;
+	max-width:90%;
+	line-height: 16px;
+	margin-bottom: 5px;
+}
+#optionsframework input.checkbox, #optionsframework input.of-radio {
+	margin: 0 10px 5px 0;
+	float:left;
+	clear:both;
+}
+#optionsframework .section-typography .controls {
+	float:none;
+	width:auto;
+}
+#optionsframework .section-typography .explain {
+	float:none;
+	width:auto;
+}
+#optionsframework .controls .of-typography-size {
+	width:80px;
+	float:left
+}
+#optionsframework .controls .of-typography-unit {
+	width:50px;
+	margin-left:5px;
+	float:left
+}
+#optionsframework .controls .of-typography-face {
+	width:100px;
+	margin-left:5px;
+	float:left
+}
+#optionsframework .controls .of-typography-style {
+	width:80px;
+	margin-left:5px;
+	margin-right:5px;
+	float:left
+}
+#optionsframework .section-typography .wp-picker-container {
+	margin-top:2px;
+}
+#optionsframework .of-background-properties {
+	clear:both;
+	margin-top: 18px;
+}
+#optionsframework .controls .of-background-repeat {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#optionsframework .controls .of-background-position {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#optionsframework .controls .of-background-attachment {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#optionsframework .section-background .wp-picker-container {
+	margin-bottom:10px;
+}
+#optionsframework .controls .of-radio-img-img {
+	border:3px solid #f9f9f9;
+	margin:0 5px 10px 0;
+	display:none;
+	cursor:pointer;
+	float:left;
+}
+#optionsframework .controls .of-radio-img-selected {
+	border:3px solid #ccc
+}
+#optionsframework .controls .of-radio-img-img:hover {
+	opacity:.8;
+}
+#optionsframework .controls .of-border-width {
+	width:80px;
+	float:left
+}
+#optionsframework .controls .of-border-style {
+	width:120px;
+	float:left
+}
+#optionsframework .hide {
+	display:none;
+}
+#optionsframework .of-option-image {
+	max-width:340px;
+	margin:3px 0 18px 0;
+}
+#optionsframework .mini .controls select, #optionsframework .section .mini .controls {
+	width: 140px;
+}
+#optionsframework .mini .controls input, #optionsframework .mini .controls {
+	min-width:140px;
+	width: 140px;
+}
+#optionsframework .lengthtext .controls input, #optionsframework .lengthtext .controls {
+	min-width:420px;
+	width: 420px;
+}
+#optionsframework .mini .explain {
+	max-width:74%;
+}
+
+/* Editor */
+
+#optionsframework .section-editor .explain {
+	max-width: 98%;
+	float:none;
+	margin-bottom:5px;
+}
+
+/* Image Uploader */
+
+#optionsframework .controls input.upload {
+	width:80%;
+}
+#optionsframework .screenshot {
+	float:left;
+	margin-left:1px;
+	position:relative;
+	width:344px;
+	margin-top:3px;
+}
+#optionsframework .screenshot img {
+	background:#fafafa;
+	border-color:#ccc #eee #eee #ccc;
+	border-style:solid;
+	border-width:1px;
+	float:left;
+	max-width:334px;
+	padding:4px;
+	margin-bottom:10px;
+}
+#optionsframework .screenshot .remove-image {
+	background:url("../images/ico-delete.png") no-repeat;
+	border:medium none;
+	bottom:4px;
+	display:block;
+	float:left;
+	height:20px;
+	padding:0;
+	position:absolute;
+	left:-4px;
+	text-indent:-9999px;
+	width:20px;
+}
+#optionsframework .screenshot .no_image .file_link {
+	margin-left: 20px;
+}
+#optionsframework .screenshot .no_image .remove-button {
+	bottom: 0px;
+}
+#optionsframework .reset-button {
+	float:left;
+	cursor:pointer;
+}
+
+/* Bottom Section */
+
+#optionsframework-submit {
+	padding: 7px 10px;
+	border-top: 1px solid #ddd;
+	background-color: #f1f1f1;
+}
+#optionsframework .button-primary {
+	float:right;
+}
+#optionsframework .section:after {
+	content: "";
+	display: table;
+}
+#optionsframework .section:after {
+	clear: both;
+}
+
+/* my */
+.file_link a {
+	text-decoration: none;
+}
+#catids li, #catid li {
+	float: left;
+	color: #999;
+	padding: 2px 5px;
+}
+#scroll-a {
+	float: right;
+	position: fixed;
+	right: 10px;
+	bottom: 150px;
+	z-index: 9999;
+}
+.scroll-b, .scroll-t {
+	background: #fff;
+	margin: 0 0 5px 0;
+	border: 1px solid #ddd;
+    border-radius: 2px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+#scroll-a a {
+	color: #999;
+	text-decoration: none;
+	line-height: 35px;
+	padding: 0 10px;
+	display: block;
+}
+#section-clear {
+	margin-top: 17px;
+	padding: 0;
+	clear: both;
+	border-top: 1px solid #e5e5e5;
+}
+#news_n, #picture_n, #post_img_n, #video_n, #cat_small_n, #tab_a, #tab_b, #tab_c, #tabt_n, #flexisel_n, #cat_big_n, #tao_h_n, #cat_big_not_n {
+    min-width: 140px !important;
+    width: 140px !important;
+}
+#tabt_id, #tabz_n {
+    min-width: 140px !important;
+    width: 140px !important;
+}
+#optionsframework-wrap .dashicons-admin-settings {
+	color: #0073aa;
+    font-size: 28px;
+    margin: 4px 10px 0 0;
+}
+#optionsframework-wrap .version {
+	background: #555;
+	color: #fff;
+    font-size: 12px;
+	margin: 0 0 0 10px;
+	padding: 1px 8px;
+	border-radius: 2px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+.updated-date {
+	vertical-align: super;
+	color: #666;
+	font-size: 10px; 
+	margin: 10px 0px 0px 5px
+}
+#section-c_img h4 {
+	margin: 10px 0;
+}
+#section-img_c .explain {
+   	float: left;
+	margin: 10px 0;
+}
+#section-img_w, #section-img_h,
+#section-img_k_w, #section-img_k_h, 
+#section-img_i_w, #section-img_i_h,
+#section-img_v_w, #section-img_v_h,
+#section-img_t_w, #section-img_t_h {
+	float: left;
+	width: 30%;
+	margin: 0 0 10px 0;
+}
+#section-img_w .controls, #section-img_h .controls,
+#section-img_k_w .controls, #section-img_k_h .controls,
+#section-img_i_w .controls, #section-img_i_h .controls,
+#section-img_v_w .controls, #section-img_v_h .controls,
+#section-img_t_w .controls, #section-img_t_h .controls{
+	width: 60%;
+	margin: 0 10px 0 0;
+}
+/* meta boxes */
+
+#seo-excerpt {
+	width: 95%;
+}
